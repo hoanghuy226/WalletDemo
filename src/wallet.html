@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShoutBoard - Trada Academy</title>
+    <style>
+        body {background-color: #e6ecf0}
+        .page { display: none }
+    </style>
+</head>
+
+<body>
+    <h1>Wallet Demo</h1>
+    
+    <hr>
+    <h2>CREATE NEW WALLET</h2>
+    <a href="#" id="createWeb3">Create new wallet using Web3(Done)</a><br>
+    <a href="#" id="createKeythereum">Create new wallet using Keythereum(Pending)</a><br>
+    <a href="#" id="createEJS">Create new wallet Ethereum JS(Done)</a><br>
+
+    <hr>
+    <h2>IMPORT</h2>
+
+    <h3>Import Private key</h3>
+    <a href="#" id="importKeyWeb3">Import using Web3(Done)</a><br>
+    <a href="#" id="importKeyEJS">Import using Ethereum JS(Done)</a><br>
+
+    <h3>Import Seed</h3>
+    <a href="#" id="importSeed">Import using EthereumJS Wallet HD Key(Done)</a><br>
+
+    <hr>
+    <h2>SAVE</h2>
+    <a href="#" id="saveWeb3">Save to browser storage using Web3(Done)</a><br>
+    <a href="#" id="saveKeythereum">Export to keystore V3 using Keythereum(Pending)</a><br>
+    <a href="#" id="saveEJS">Export to keystore JS using EthereumJS Wallet</a><br>
+
+    <hr>
+    <h2>LOAD</h2>
+    <a href="#" id="loadWeb3">Load from browser storage using Web3(Done)</a><br>
+    <a href="#" id="loadKeythereum">Load from JSON using Keythereum(Pending)</a><br>
+    <a href="#" id="loadEJS">Load from JSON using EthereumJS Wallet</a><br>
+    <input type="file" id="selectFiles" value="Import" /><br />
+    <script src='wallet.bundle.js'></script>
+</body>
+
+</html>
